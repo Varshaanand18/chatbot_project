@@ -1,0 +1,24 @@
+# Chatbot Project
+
+This project demonstrates the creation and fine-tuning of a chatbot using Hugging Face Transformers.
+
+## Steps followed:
+1. Load a pre-trained model and tokenizer.
+2. Fine-tune the model using a custom dataset.
+3. Compare outputs from different pre-trained models.
+4. Save the fine-tuned model for future use.
+
+## How to Run:
+1. Install dependencies:
+   - `pip install transformers datasets torch`
+2. Run the chatbot using:
+   - `python chatbot.py`
+3. Follow the prompts to interact with the chatbot.
+
+## Fine-Tuned Model:
+- The fine-tuned model is saved in the `./results` folder.
+
+## Files:
+- `chatbot.py`: The main Python script.
+- `qa_data.csv`: The dataset used for training.
+- `results/`: Directory containing the fine-tuned model.
